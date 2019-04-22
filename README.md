@@ -48,4 +48,16 @@ registry = "http://mirrors.ustc.edu.cn/crates.io-index"
 $ cargo install diesel_cli --no-default-features --features postgres
 ```
 
+### 内容导读
 
+- [概念导读](./concept_to_guide/RustConAsia2019WorkShop.pdf)
+- [现场代码](./workshop-todo)
+
+Workshop流程说明：
+
+- actor模型介绍
+- actix重点概念介绍
+- actix-web重点概念介绍
+- Diesel重点概念介绍
+- 现场todo 接口实现，跑通接口逻辑
+- 增加Dockerfile方便打包为一个独立的镜像
