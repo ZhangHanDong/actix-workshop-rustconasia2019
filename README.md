@@ -5,6 +5,8 @@
 - Rust 最新稳定版
 - Docker 
 
+windows可以装docker for win
+
 对于Mac环境，使用
 
 - Docker Desktop for Mac 
@@ -20,6 +22,8 @@ $ docker-machine create --driver virtualbox default
 $ docker-machine env default
 $ eval $(docker-machine env default)
 ```
+
+
 
 安装好postgresql的docker镜像,,或者使用Sqlite/Mysql
 
